@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+.container { max-width: 390px; margin: 0 auto; }
+h2 { text-align: center; }
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+.item {
+    text-align: center;
+    background: var(--tg-theme-secondary-bg-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+img { width: 100px; height: 100px; object-fit: contain; }
+.btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: rgb(248, 168, 24);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .2s linear;
+}
+.btn:hover { background: lightgreen; }
