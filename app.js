@@ -51,6 +51,7 @@ document.getElementById("btn_drums").addEventListener("click", function () {
     }
 });
 
+
 // Передача данных боту
 Telegram.WebApp.onEvent("mainButtonClicked", function () {
     tg.sendData(item);
